@@ -1,0 +1,22 @@
+# .gitignore for Slyce project
+build/
+dist/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+#Ignore Logs
+logs/
+*.log
+
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+!extras
+
+# Allow assets (icons etc.)
+!assets/
+!assets/*.ico
